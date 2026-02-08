@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AgroChem Ghana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-seedling"></i> AgroChem Ghana</h1>
+                <p>Quality Agricultural Solutions</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for product inquiries, technical support, or service requests.</p>
+        </section>
+
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Send us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="e.g., 0241234567">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="product">Product Inquiry</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="service">Service Request</option>
+                            <option value="order">Order Placement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Head Office</h3>
+                        <p>123 Agricultural Street, Accra, Ghana</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone Numbers</h3>
+                        <p>+233 24 123 4567 (Sales)</p>
+                        <p>+233 30 987 6543 (Technical Support)</p>
+                        <p>+233 55 112 2334 (Customer Service)</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email Addresses</h3>
+                        <p>info@agrochemghana.com (General)</p>
+                        <p>sales@agrochemghana.com (Sales)</p>
+                        <p>support@agrochemghana.com (Technical)</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        <p>Saturday: 9:00 AM - 2:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="branches">
+            <h2>Our Branch Locations</h2>
+            <div class="branch-grid">
+                <div class="branch-card">
+                    <h3><i class="fas fa-map-pin"></i> Kumasi Branch</h3>
+                    <p>34 Adum Street, Kumasi</p>
+                    <p><i class="fas fa-phone"></i> +233 32 123 4567</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-5PM</p>
+                </div>
+                <div class="branch-card">
+                    <h3><i class="fas fa-map-pin"></i> Takoradi Branch</h3>
+                    <p>56 Market Circle, Takoradi</p>
+                    <p><i class="fas fa-phone"></i> +233 31 987 6543</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-5PM</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="map-container">
+            <h2>Find Us on the Map</h2>
+            <div class="map-placeholder">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>Head Office Location: 123 Agricultural Street, Accra</p>
+                <p>GPS Coordinates: 5.6037° N, 0.1870° W</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-seedling"></i> AgroChem Ghana</h3>
+                    <p>Providing quality agricultural inputs and services to Ghanaian farmers since 2005.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Agricultural Street, Accra, Ghana</p>
+                    <p><i class="fas fa-phone"></i> +233 24 123 4567</p>
+                    <p><i class="fas fa-phone"></i> +233 30 987 6543</p>
+                    <p><i class="fas fa-envelope"></i> info@agrochemghana.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 AgroChem Ghana. All rights reserved. | EPA Certified: EPA/GH/AGR/2023/0456</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav ul');
+            
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function() {
+                    nav.classList.toggle('show');
+                    // Toggle menu icon
+                    const icon = menuToggle.querySelector('i');
+                    if (icon.classList.contains('fa-bars')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    } else {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+                
+                // Close menu when clicking on a link
+                const navLinks = document.querySelectorAll('nav ul li a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        nav.classList.remove('show');
+                        const icon = menuToggle.querySelector('i');
+                        if (icon.classList.contains('fa-times')) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+            
+            // Contact form submission
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will contact you within 24 hours.');
+                this.reset();
+            });
+        });
+    </script>
+</body>
+</html>

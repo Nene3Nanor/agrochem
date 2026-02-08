@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AgroChem Ghana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-seedling"></i> AgroChem Ghana</h1>
+                <p>Quality Agricultural Solutions</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>About AgroChem Ghana</h1>
+            <p>Your trusted partner in agricultural productivity since 2005</p>
+        </section>
+
+        <section class="about-content">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Founded in 2005 by agricultural scientist Dr. Kwame Asante, AgroChem Ghana began with a simple mission: to provide Ghanaian farmers with access to quality agricultural inputs combined with expert technical knowledge.</p>
+                <p>Starting from a small shop in Accra, we've grown to become one of Ghana's leading suppliers of agrochemicals and agricultural services, with branches in all major regions and a distribution network covering the entire country.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AgroChem Ghana team">
+            </div>
+        </section>
+
+        <section class="mission-vision">
+            <div class="mission">
+                <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
+                <p>To enhance agricultural productivity in Ghana by providing farmers with effective, safe, and affordable agricultural inputs, combined with expert advisory services that promote sustainable farming practices and improve livelihoods.</p>
+            </div>
+            <div class="vision">
+                <h2><i class="fas fa-eye"></i> Our Vision</h2>
+                <p>To be Ghana's leading agricultural solutions provider, recognized for our commitment to quality, farmer education, and sustainable agriculture that contributes to national food security and economic growth.</p>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Our Leadership Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Dr. Kwame Asante</h3>
+                    <p class="position">Founder & CEO</p>
+                    <p>PhD in Agricultural Science, 25+ years experience in agronomy</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Mrs. Akosua Mensah</h3>
+                    <p class="position">Technical Director</p>
+                    <p>MSc in Plant Pathology, 15+ years in crop protection</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications & Partnerships</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>EPA Certified</h3>
+                    <p>Environmental Protection Agency Ghana</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>MoFA Partner</h3>
+                    <p>Ministry of Food & Agriculture</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-seedling"></i> AgroChem Ghana</h3>
+                    <p>Providing quality agricultural inputs and services to Ghanaian farmers since 2005.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Agricultural Street, Accra, Ghana</p>
+                    <p><i class="fas fa-phone"></i> +233 24 123 4567</p>
+                    <p><i class="fas fa-phone"></i> +233 30 987 6543</p>
+                    <p><i class="fas fa-envelope"></i> info@agrochemghana.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 AgroChem Ghana. All rights reserved. | EPA Certified: EPA/GH/AGR/2023/0456</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav ul');
+            
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function() {
+                    nav.classList.toggle('show');
+                    // Toggle menu icon
+                    const icon = menuToggle.querySelector('i');
+                    if (icon.classList.contains('fa-bars')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    } else {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+                
+                // Close menu when clicking on a link
+                const navLinks = document.querySelectorAll('nav ul li a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        nav.classList.remove('show');
+                        const icon = menuToggle.querySelector('i');
+                        if (icon.classList.contains('fa-times')) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
